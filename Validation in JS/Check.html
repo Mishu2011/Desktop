@@ -1,0 +1,30 @@
+var choice = prompt("Welcome to Perimeter Calculator.\n Please enter your choice.\n1. Rectangle\n2. Square\n3. Triangle\n4. Parallelogram");
+
+if (choice == '1') {
+    var l = prompt('Enter the length');
+    var b = prompt('Enter the breadth');
+    var result = 2 * (Number(l) + Number(b));
+    alert('The answer is ' + result);
+}
+
+else if (choice == '2') {
+    var s = prompt('Enter the length');
+    var result = 4 * Number(s);
+    alert('The answer is ' + result);
+} 
+
+else if (choice == '3') {
+    var s1 = prompt('Enter the side 1');
+    var s2 = prompt('Enter the side 2');
+    var s3 = prompt('Enter the side 3');
+    var result = Number(s1) + Number(s2) + Number(s3);
+    alert('The answer is ' + result);
+}
+else if (choice == '4') {
+    var l = prompt('Enter the length');
+    var b = prompt('Enter the breadth');
+    var result = 2 * (Number(l) + Number(b));
+    alert('The answer is ' + result);
+} else {
+    alert('Invalid choice');
+}
