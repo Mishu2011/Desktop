@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Carousel</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+        }
+
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            /* Adjust based on your image height */
+        }
+
+        /* Hide all sides by default */
+        .myslides {
+            display: none;
+            max-height: 100%;
+            /*Ensure images fit within container */
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Favourite Images</h1>
+    <div class="carousel-container">
+        <img class="myslides" src="DSC01664.JPG" height="300" width="300" alt="There is some error in image">
+        <img class="myslides" src="DSC01778.JPG" height="300" width="300" alt="There is some error in image">
+        <img class="myslides" src="WP_000009.jpg" height="300" width="300" alt="There is some error in image">
+            <img class="myslides" src="Pink wallpaper.jpg" height="300" width="300" alt="There is some error in image">
+            <img class="myslides" src="purple leafs.jpeg" height="300" width="300" alt="There is some error in image">
+            <img class="myslides" src="Mall.webp" height="300" width="300" alt="There is some error in image">
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+
+
+
+</html>
